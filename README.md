@@ -115,7 +115,7 @@ You can easily deploy this bot yourself by following the steps below.
 
 This project was made possible by the inspiration and foundational work of others in the community.
 
--   **Base Repository:** A special thanks to **[Jishu Developer](https://github.com/shriram70sm)** for their original work.
+-   **Base Repository:** A special thanks to **[MovieGalaxyX Developer](https://github.com/shriram70sm)** for their original work.
 -   **Inspiration & Support:** **[MovieGalaxyX](https://t.me/MovieGalaxyX)**
 
 ### **Contributors**
