@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://prod.assets.earlygamecdn.com/images/Chisa.jpg?transform=Banner+Webp" alt="Bot Banner" width="1920"/>
+  <img src="https://pin.it/4TDmgS648" alt="Bot Banner" width="1920"/>
   <h1>Auto Rename Bot</h1>
   <p>
     <b>A powerful and dynamic Telegram bot designed to automatically rename files up to 2GB, with a fully interactive, button-based UI that can be configured dynamically by the owner.</b>
@@ -116,9 +116,7 @@ You can easily deploy this bot yourself by following the steps below.
 This project was made possible by the inspiration and foundational work of others in the community.
 
 -   **Base Repository:** A special thanks to **[Jishu Developer](https://github.com/JishuDeveloper)** for their original work.
--   **Inspiration & Support:** **[REx BOTs](https://t.me/RexBots_Official)**
+-   **Inspiration & Support:** **[MovieGalaxyX](https://t.me/MovieGalaxyX)**
 
 ### **Contributors**
--   **[ABHINAI](https://t.me/about_zani)**
--   **[ABHINAV](https://t.me/adityaabhinav)**
--   **[MASTER](https://t.me/V_Sbotmaker)**
+-   **[MovieGalaxyX](https://t.me/MovieGalaxyX)**
