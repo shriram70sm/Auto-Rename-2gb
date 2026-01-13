@@ -1,6 +1,6 @@
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
 import asyncio
@@ -18,8 +18,8 @@ from helper.database import *
 from plugins.helper_func import *
 
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
 # Request force sub mode command
@@ -50,8 +50,8 @@ async def change_force_sub_mode(client: Client, message: Message):
         disable_web_page_preview=True
     )
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
 # This handler captures membership updates (like when a user leaves, banned)
@@ -72,8 +72,8 @@ async def handle_Chatmembers(client, chat_member_updated: ChatMemberUpdated):
                 await rexbots.del_req_user(chat_id, user_id)
 
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
 # This handler will capture any join request to the channel/group where the bot is an admin
@@ -146,8 +146,8 @@ async def add_force_sub(client: Client, message: Message):
             f"<b>❌ Failed to add channel:</b>\n<code>{channel_id}</code>\n\n<i>{e}</i>"
         )
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
 # Delete channel
@@ -178,8 +178,8 @@ async def del_force_sub(client: Client, message: Message):
     else:
         return await temp.edit(f"<b>❌ Channel not found in force-sub list:</b> <code>{ch_id}</code>")
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
 # View all channels
@@ -207,7 +207,7 @@ async def list_force_sub_channels(client: Client, message: Message):
 
 
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
