@@ -1,6 +1,6 @@
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --
 import motor.motor_asyncio
@@ -10,8 +10,8 @@ from config import Config
 from datetime import timedelta, datetime, date, timezone
 from helper.utils import send_log
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --
 class Seishiro:
@@ -38,8 +38,8 @@ class Seishiro:
         self.col = self.database.users
         self.timezone = timezone.utc
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --
     def new_user(self, id, username=None):
@@ -63,8 +63,8 @@ class Seishiro:
             )
         )
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --
     async def save_verification(self, user_id, verification_type):
@@ -82,8 +82,8 @@ class Seishiro:
         await self.verification_data.insert_one(verification)
         logging.info(f"Verification event saved for user {user_id}, type {verification_type} at {now}")
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --
     def get_start_end_dates_verification(self, time_period, year=None):
@@ -116,8 +116,8 @@ class Seishiro:
         
         return start_datetime, end_datetime
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --
     async def get_vr_count_combined(self, time_period, year=None):
@@ -152,8 +152,8 @@ class Seishiro:
             logging.error(f"Error getting verification count for {time_period}: {e}")
             return 0
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --
     async def db_verify_status(self, user_id):
@@ -226,8 +226,8 @@ class Seishiro:
             upsert=True
         )
   # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --  
     async def get_verification_settings(self):
@@ -264,8 +264,8 @@ class Seishiro:
                 upsert=True
             )
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --
     async def set_verify_1(self, api_link: str, verify_token: str):
@@ -302,8 +302,8 @@ class Seishiro:
                 return False
         return True
  # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --               
     async def get_user(self, user_id):
@@ -463,8 +463,8 @@ class Seishiro:
                 await self.col.update_one({"_id": user_id}, {"$set": {"expiry_time": None, "is_premium": False}})
         return False
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --
     async def get_expired(self, current_time=None):
@@ -501,8 +501,8 @@ class Seishiro:
             logging.error(f"Error getting thumbnail for user {id}: {e}")
             return None
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --
     async def set_caption(self, id, caption):
@@ -660,9 +660,9 @@ class Seishiro:
 
 
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # --
         
-rexbots = Seishiro(Config.DB_URL, Config.DB_NAME)
+MovieGalaxyX = Seishiro(Config.DB_URL, Config.DB_NAME)
