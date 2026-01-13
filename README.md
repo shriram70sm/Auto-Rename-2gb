@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="[https://pin.it/4TDmgS648](https://postimg.cc/Kkfq1Mk6)" alt="Bot Banner" width="1920"/>
+  <img src="https://i.postimg.cc/GtwZSPcm/moviegalaxyx_logo.jpg" alt="Bot Banner" width="1920"/>
   <h1>Auto Rename Bot</h1>
   <p>
     <b>A powerful and dynamic Telegram bot designed to automatically rename files up to 2GB, with a fully interactive, button-based UI that can be configured dynamically by the owner.</b>
