@@ -1,17 +1,17 @@
 {
     "name": "Auto Renamer Bot",
     "description": "Telegram Auto File Renamer Bot ",
-    "logo": "https://prod.assets.earlygamecdn.com/images/Chisa.jpg?transform=Banner+Webp",
+    "logo": "https://pin.it/2IZrKhHgx",
     "keywords": ["Auto Renamer Bot", "Mongo DB"],    
     "repository": "https://github.com/abhinai2244/Auto-Rename.git",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
-            "value": ""
+            "value": "28780046"
         },
         "API_HASH": {
             "description": "Your API Hash From my.telegram.org ",
-            "value": ""
+            "value": "70a313c44ae696e30aab5e6b5e031d0d"
         },
         "WEBHOOK": {
             "description": "if your server is need web service! value = True else value = False",
@@ -19,12 +19,12 @@
         },
         "FORCE_SUB": {
             "description": "Your force sub channel user name without [@] ",
-            "value": "",
-            "required": false 
+            "value": "-1003280460529",
+            "required": true
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": ""
+            "value": "8580460686:AAFm0J0YZhHrxC5Ix9y8LHJowDbnLQWKY-w"
         },
         "ADMIN": {
             "description":"Add Your User ID multiple is use space to split"
@@ -39,13 +39,13 @@
         },
         "DB_NAME":{ 
             "description":"Your Mongo DB Database Name ",
-            "value": "",
-            "required": false
+            "value": "MovieGalaxyX",
+            "required": true
         },
         "START_PIC": {
             "description": "Your Bot start cmd Pic from @MT_TelegraPH_Bot",
-            "value": "",
-            "required": false
+            "value": "https://pin.it/7dW7PTAP5",
+            "required": true
         }
     },
     "buildpacks": [
