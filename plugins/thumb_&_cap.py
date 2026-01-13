@@ -1,6 +1,6 @@
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
 from pyrogram import Client, filters
@@ -13,8 +13,8 @@ from config import Config
 from functools import wraps
 import logging 
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
 chat_data_cache = {}
@@ -24,8 +24,8 @@ BOT_USERNAME = Config.BOT_USERNAME
 OWNER_ID = Config.OWNER_ID
 FSUB_LINK_EXPIRY = 10
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
 def check_ban(func):
@@ -44,8 +44,8 @@ def check_ban(func):
         return await func(client, message, *args, **kwargs)
     return wrapper
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------	
 def check_fsub(func):
@@ -107,8 +107,8 @@ def check_fsub(func):
 
     return wrapper
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
 async def check_admin(filter, client, update):
@@ -119,8 +119,8 @@ async def check_admin(filter, client, update):
         print(f"! Exception in check_admin: {e}")
         return False
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
 async def not_joined(client: Client, message: Message):
@@ -216,8 +216,8 @@ async def not_joined(client: Client, message: Message):
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
 @Client.on_message(filters.private & filters.command('set_caption'))
@@ -251,8 +251,8 @@ async def see_caption(client, message):
        await message.reply_text("**You Don't Have Any Caption ❌**")
 
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
 @Client.on_message(filters.private & filters.command(['view_thumb', 'viewthumb']))
@@ -283,7 +283,7 @@ async def addthumbs(client, message):
 
 
 # ----------------------------------------
-# 𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐁𝐇𝐈
-# 𝐓𝐆 𝐈𝐃 : @𝐂𝐋𝐔𝐓𝐂𝐇𝟎𝟎𝟖
+# 𝐌𝐀𝐃𝐄 𝐁𝐘 MovieGalaxyX
+# 𝐓𝐆 𝐈𝐃 : @MovieGalaxyX
 # 𝐀𝐍𝐘 𝐈𝐒𝐒𝐔𝐄𝐒 𝐎𝐑 𝐀𝐃𝐃𝐈𝐍𝐆 𝐌𝐎𝐑𝐄 𝐓𝐇𝐈𝐍𝐆𝐬 𝐂𝐀𝐍 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐌𝐄
 # ----------------------------------------
