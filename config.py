@@ -19,19 +19,19 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME", "MovieGalaxyX")     
-    DB_URL  = os.environ.get("DB_URL", "")
+    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://MovieGalaxyX:MovieGalaxyX@moviegalaxyx.5l324s1.mongodb.net/?appName=MovieGalaxyX")
  
     # other configs
     ADMIN_URL = "https://t.me/adityaabhinav"
     DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1002257657458")
     DUMP = True
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://pin.it/48cPq06O4")
-    LEADERBOARD_PIC = os.environ.get("LEADERBOARD_PIC", "https://pin.it/jBqtjKpok")
+    START_PIC   = os.environ.get("START_PIC", "https://i.postimg.cc/DZdgn1rJ/rename-logo.jpg")
+    LEADERBOARD_PIC = os.environ.get("LEADERBOARD_PIC", "https://i.postimg.cc/GtwZSPcm/moviegalaxyx_logo.jpg")
     OWNER_ID = int(os.environ.get("OWNER_ID", "5036211847"))
     SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1003502385000"))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003280460529"))
-    FSUB_PIC = os.environ.get("FSUB_PIC", "https://pin.it/y4gucWycc")
+    FSUB_PIC = os.environ.get("FSUB_PIC", "https://i.postimg.cc/GtwZSPcm/moviegalaxyx_logo.jpg")
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "MovieGalaxyX_rename_bot")
     LEADERBOARD_DELETE_TIMER = 30
     # wes response configuration     
