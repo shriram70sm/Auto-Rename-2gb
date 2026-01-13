@@ -82,7 +82,7 @@ You can easily deploy this bot yourself by following the steps below.
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/abhinai2244/Auto-Rename.git
+    git clone [https://github.com/abhinai2244/Auto-Rename.git](https://github.com/shriram70sm/Auto-Rename-2gb)
     cd Auto-Rename
     ```
 
@@ -115,7 +115,7 @@ You can easily deploy this bot yourself by following the steps below.
 
 This project was made possible by the inspiration and foundational work of others in the community.
 
--   **Base Repository:** A special thanks to **[Jishu Developer](https://github.com/JishuDeveloper)** for their original work.
+-   **Base Repository:** A special thanks to **[Jishu Developer](https://github.com/shriram70sm)** for their original work.
 -   **Inspiration & Support:** **[MovieGalaxyX](https://t.me/MovieGalaxyX)**
 
 ### **Contributors**
