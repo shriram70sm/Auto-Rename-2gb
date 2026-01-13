@@ -22,8 +22,8 @@ class Config(object):
     DB_URL  = os.environ.get("DB_URL", "mongodb+srv://MovieGalaxyX:MovieGalaxyX@moviegalaxyx.5l324s1.mongodb.net/?appName=MovieGalaxyX")
  
     # other configs
-    ADMIN_URL = "https://t.me/adityaabhinav"
-    DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1002257657458")
+    ADMIN_URL = "https://t.me/MovieGalaxyX"
+    DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-10030999691228")
     DUMP = True
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://i.postimg.cc/DZdgn1rJ/rename-logo.jpg")
@@ -56,7 +56,7 @@ class Config(object):
 ❍ ᴅᴇᴠᴇʟᴏᴩᴇʀ : <a href="https://t.me/MovieGalaxyX">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 ❍ ʟᴀɴɢᴜᴀɢᴇ : <a href="https://www.python.org/">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 ❍ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href="https://www.mongodb.com/">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-❍ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://t.me/RexBots_Official">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+❍ ʜᴏꜱᴛᴇᴅ ᴏɴ : <a href="https://t.me/MovieGalaxyX">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 ❍ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href="https://t.me/MovieGalaxyX">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 
 ➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴍᴇ.</blockquote></b>"""
