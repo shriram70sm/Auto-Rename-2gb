@@ -14,7 +14,7 @@ async def web_server():
 
 
 
-# Jishu Developer 
+# MovieGalaxyX Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Developer @JishuDeveloper
+# Telegram Channel @MovieGalaxyX_Link
+# Developer @MovieGalaxyX
