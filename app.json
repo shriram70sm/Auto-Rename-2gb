@@ -7,11 +7,11 @@
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
-            "value": "28780046"
+            "value": ""
         },
         "API_HASH": {
             "description": "Your API Hash From my.telegram.org ",
-            "value": "70a313c44ae696e30aab5e6b5e031d0d"
+            "value": ""
         },
         "WEBHOOK": {
             "description": "if your server is need web service! value = True else value = False",
@@ -24,7 +24,7 @@
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": "8580460686:AAFm0J0YZhHrxC5Ix9y8LHJowDbnLQWKY-w"
+            "value": ""
         },
         "ADMIN": {
             "description":"Add Your User ID multiple is use space to split"
