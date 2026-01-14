@@ -19,7 +19,7 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME", "MovieGalaxyX")     
-    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://MovieGalaxyX:MovieGalaxyX@moviegalaxyx.5l324s1.mongodb.net/?appName=MovieGalaxyX")
+    DB_URL  = os.environ.get("DB_URL", "")
  
     # other configs
     ADMIN_URL = "https://t.me/MovieGalaxyX"
